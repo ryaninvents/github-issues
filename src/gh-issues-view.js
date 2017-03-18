@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import IssuesList from './components/issues-list';
+import App from './components/app';
 
 export default class GhIssuesView {
 
@@ -8,7 +8,7 @@ export default class GhIssuesView {
     // Create root element
     this.element = document.createElement('div');
     this.element.classList.add('github-issues');
-    ReactDOM.render(React.createElement(IssuesList), this.element);
+    ReactDOM.render(React.createElement(App), this.element);
   }
 
   // Returns an object that can be retrieved when package is activated

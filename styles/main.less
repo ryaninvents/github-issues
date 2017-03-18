@@ -16,6 +16,17 @@
     .breadcrumbs {
         h2 {
             margin: 0;
+            
+            .crumb {
+                padding: 0 0.3em;
+            }
+            
+            .crumb + .crumb::before {
+                content: '\203A';
+                padding-left: 0;
+                padding-right: 0.6em;
+                color: @text-color-subtle;
+            }
         }
     }
     
