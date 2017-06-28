@@ -1,5 +1,8 @@
 # github-issues
 
+### DEPRECATED
+Use `quick-issues` instead.
+
 Quickly view GitHub issues for the currently opened project.
 
 ![](https://r24y.github.io/github-issues/docs/issues-list.png)
